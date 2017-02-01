@@ -9,7 +9,7 @@ class Board
   def initialize(name1, name2)
     @name1 = name1
     @name2 = name2
-    @cups = Array.new(14) { Array.new }
+    @cups = Array.new(14) { [] }
     place_stones
   end
 
